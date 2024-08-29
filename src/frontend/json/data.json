@@ -1,0 +1,13 @@
+// src/json/data.json
+
+{
+  "name": "SSL/TLS Netzwerk Monitor",
+  "version": "1.0.0",
+  "description": "Ein einfaches Netzwerk-Monitoring-Tool mit SSL-Verschlüsselung.",
+  "author": "Kai Pfister",
+  "data": [
+    { "timestamp": "2024-08-29T12:00:00Z", "status": "OK", "message": "Alles funktioniert einwandfrei." },
+    { "timestamp": "2024-08-29T12:05:00Z", "status": "Warnung", "message": "Leichte Verzögerung festgestellt." },
+    { "timestamp": "2024-08-29T12:10:00Z", "status": "Fehler", "message": "Netzwerkverbindung verloren." }
+  ]
+}
